@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="折叠翻转动画效果" />
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="ListView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnExample"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="Example"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTestListView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="测试Listview"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="RecyclerView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnOther"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="elevation(阴影),tinting（着色）clipping（剪裁）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="PullToRefresh(刷新)"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btnAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin6"
+            android:text="Animation(动画)"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>
